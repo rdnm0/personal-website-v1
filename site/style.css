@@ -12,7 +12,46 @@ body{
 }
 .square{
     background-color: #ebe1c1;
-    height: 472px;
+    height: 679px;
     width: 990px;
     border-radius: 25px;
+}
+h1{
+    text-align: center;
+    font-family: comfortaa;
+    font-size: 50px;
+    color: #000;
+    
+}
+ .line{
+    background-color: #000;
+    height: 2px;
+    width: 800px;
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    
+ }   
+.btn{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+
+}
+.btn:hover{
+    transform: scale(1.05);
+
+}
+.btn{
+    transition: all 0.3s;
+}
+.btn {
+    font-size: 5px;
+    padding: 16px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+    height: 50px;
 }
